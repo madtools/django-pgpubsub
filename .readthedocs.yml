@@ -12,10 +12,11 @@ build:
   #     - poetry config virtualenvs.create false
   #   post_install:
   #     - poetry install
-# python:
-#   version: 3.8
-#   install:
-#     - requirements: docs/requirements.txt
+
+python:
+  version: 3.12
+  install:
+    - requirements: docs/requirements.txt
 
 sphinx:
    configuration: docs/conf.py
